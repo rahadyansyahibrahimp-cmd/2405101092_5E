@@ -1,13 +1,31 @@
-# Laporan Praktikum Pemrograman Web
-
-Repository ini berisi kumpulan *source code*, tugas, dan *screenshot* hasil praktikum untuk mata kuliah Praktikum Pemrograman Web.
+# Laporan Praktikum Pemrograman
 
 ## Identitas Mahasiswa
-* **Nama:** Rahadyansyah Ibrahim Purnomo
-* **NIM:** 2405101092
-* **Kelas:** 5E
 
-## Daftar Isi Repository
-* **Modul 1:** Berisi latihan, screenshot, dan tugas modul 1.
-* **Modul 2:** Berisi latihan, screenshot, dan tugas modul 2.
-* **Modul 3:** Berisi praktikum, screenshot, dan tugas modul 3.
+- Nama: Rahadyansyah Ibrahim Purnomo
+- NIM: 2405101092
+- Kelas: 5E
+- Program Studi: Teknik Informatika
+- Mata Kuliah: Pemrograman Web / Mobile Programming
+- Tahun Akademik: 2026/2027
+
+## Deskripsi
+
+Repository ini berisi source code, dokumentasi, dan screenshot hasil praktikum selama satu semester.
+
+## Daftar Praktikum
+
+| Modul | Topik | Source Code dan Screenshot |
+|---|---|---|
+| Modul 1 | Dasar-dasar Pemrograman & HTML | [Folder](./Modul%201/) |
+| Modul 2 | Semantic HTML | [Folder](./Modul%202/) |
+| Modul 3 | Form HTML | [Folder](./Modul%203/) |
+
+## Cara Menjalankan Aplikasi
+
+Buka file HTML melalui browser atau jalankan melalui Visual Studio Code menggunakan ekstensi Live Server.
+
+## Referensi
+
+- Modul Praktikum dari Dosen Pengampu
+- Dokumentasi web terkait
