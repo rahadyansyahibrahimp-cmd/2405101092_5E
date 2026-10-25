@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran Pasien - Klinik Sehat</title>
+</head>
+<body>
+    <h1>Klinik Sehat</h1>
+    <h2>Formulir Pendaftaran Pasien</h2>
+
+    <form action="Formulir_kliniksehat.html" method="post">
+
+        <p>
+            <label for="nama">Nama Pasien:</label>
+            <input type="text" id="nama" name="nama" required>
+        </p>
+
+        <p>
+            <label for="umur">Umur:</label>
+            <input type="number" id="umur" name="umur" min="0" max="120">
+        </p>
+
+        <p>
+            Jenis Kelamin:
+            <input type="radio" id="laki" name="jenis_kelamin" value="laki-laki" checked>
+            <label for="laki">Laki-Laki</label>
+            <input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan">
+            <label for="perempuan">Perempuan</label>
+        </p>
+
+        <p>
+            <label for="telepon">No. Telepon:</label>
+            <input type="text" id="telepon" name="telepon">
+        </p>
+
+        <p>
+            <label for="poli">Poli Tujuan:</label>
+            <select id="poli" name="poli">
+                <option value="umum">Poli Umum</option>
+                <option value="gigi">Poli Gigi</option>
+                <option value="anak">Poli Anak</option>
+                <option value="kandungan">Poli Kandungan</option>
+            </select>
+        </p>
+
+        <p>
+            Riwayat Penyakit:
+            <input type="checkbox" id="rp_alergi" name="rp_alergi" value="alergi"> <label for="rp_alergi">Alergi</label>
+            <input type="checkbox" id="rp_diabetes" name="rp_diabetes" value="diabetes"> <label for="rp_diabetes">Diabetes</label>
+            <input type="checkbox" id="rp_hipertensi" name="rp_hipertensi" value="hipertensi"> <label for="rp_hipertensi">Hipertensi</label>
+            <input type="checkbox" id="rp_asma" name="rp_asma" value="asma"> <label for="rp_asma">Asma</label>
+        </p>
+
+        <p>
+            <label for="keluhan">Keluhan:</label><br>
+            <textarea id="keluhan" name="keluhan" rows="5" cols="40"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Daftar Berobat">
+            <input type="reset" value="Ulangi">
+        </p>
+
+    </form>
+
+    <p><a href="index.html">&laquo; Kembali ke daftar</a></p>
+</body>
+</html>

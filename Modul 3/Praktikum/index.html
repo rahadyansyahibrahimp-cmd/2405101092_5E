@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Membuat Form</title>
+</head>
+<body>
+    <h1>Belajar Membuat Form</h1>
+
+    <form action="formulir.html" method="get">
+
+        <p>
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" placeholder="Nama Kamu">
+        </p>
+
+        <p>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+        </p>
+
+        <p>
+            Jenis Kelamin:
+            <input type="radio" id="laki" name="jenis_kelamin" value="laki-laki" checked>
+            <label for="laki">Laki-Laki</label>
+            <input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan">
+            <label for="perempuan">Perempuan</label>
+        </p>
+
+        <p>
+            Hobi:
+            <input type="checkbox" id="hobi_baca" name="hobi_baca" value="membaca"> <label for="hobi_baca">Membaca Buku</label>
+            <input type="checkbox" id="hobi_nulis" name="hobi_nulis" value="menulis" checked> <label for="hobi_nulis">Menulis</label>
+            <input type="checkbox" id="hobi_mancing" name="hobi_mancing" value="memancing"> <label for="hobi_mancing">Memancing</label>
+        </p>
+
+        <p>
+            <label for="asal_kota">Asal Kota:</label>
+            <select id="asal_kota" name="asal_kota">
+                <option value="Kota Jakarta">Jakarta</option>
+                <option value="Kota Bandung">Bandung</option>
+                <option value="Kota Semarang" selected>Semarang</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="komentar">Komentar Anda:</label><br>
+            <textarea id="komentar" name="komentar" rows="5" cols="20">Silahkan katakan isi hati anda</textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Mulai Proses!">
+        </p>
+
+    </form>
+
+    <p><a href="index.html">&laquo; Kembali ke daftar</a></p>
+</body>
+</html>

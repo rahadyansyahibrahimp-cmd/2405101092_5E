@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran Anggota - Perpustakaan Kota Madiun</title>
+</head>
+<body>
+    <h1>Perpustakaan Kota Madiun</h1>
+    <h2>Formulir Pendaftaran Anggota</h2>
+
+    <form action="Formulir_Perpuskotamadiun.html" method="post">
+
+        <p>
+            <label for="nama">Nama Lengkap:</label>
+            <input type="text" id="nama" name="nama" required>
+        </p>
+
+        <p>
+            <label for="nik">NIK / No. Identitas:</label>
+            <input type="text" id="nik" name="nik" maxlength="16" required>
+        </p>
+
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </p>
+
+        <p>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </p>
+
+        <p>
+            Jenis Kelamin:
+            <input type="radio" id="laki" name="jenis_kelamin" value="laki-laki" checked>
+            <label for="laki">Laki-Laki</label>
+            <input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan">
+            <label for="perempuan">Perempuan</label>
+        </p>
+
+        <p>
+            <label for="pekerjaan">Pekerjaan:</label>
+            <select id="pekerjaan" name="pekerjaan">
+                <option value="pelajar">Pelajar</option>
+                <option value="mahasiswa">Mahasiswa</option>
+                <option value="pegawai">Pegawai</option>
+                <option value="lainnya">Lainnya</option>
+            </select>
+        </p>
+
+        <p>
+            Minat Bacaan:
+            <input type="checkbox" id="minat_fiksi" name="minat_fiksi" value="fiksi"> <label for="minat_fiksi">Fiksi</label>
+            <input type="checkbox" id="minat_sains" name="minat_sains" value="sains"> <label for="minat_sains">Sains</label>
+            <input type="checkbox" id="minat_sejarah" name="minat_sejarah" value="sejarah"> <label for="minat_sejarah">Sejarah</label>
+            <input type="checkbox" id="minat_teknologi" name="minat_teknologi" value="teknologi"> <label for="minat_teknologi">Teknologi</label>
+        </p>
+
+        <p>
+            <label for="alamat">Alamat:</label><br>
+            <textarea id="alamat" name="alamat" rows="4" cols="40"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Daftar">
+            <input type="reset" value="Ulangi">
+        </p>
+
+    </form>
+
+    <p><a href="index.html">&laquo; Kembali ke daftar</a></p>
+</body>
+</html>
