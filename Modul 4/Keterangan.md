@@ -2,8 +2,8 @@
 
 ## Identitas Mahasiswa
 
-- Nama: Muhammad Nouval Zacky
-- NIM: 2405101081
+- Nama: Rahadyansyah Ibrahim Purnomo
+- NIM: 2405101092
 - Kelas: 5E
 - Mata Kuliah: Pemrograman Web Dasar
 - Modul: 4 - CSS (Cascading Style Sheets)
