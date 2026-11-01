@@ -1,0 +1,42 @@
+<HTML>
+<HEAD>
+<TITLE>Form & Objek Document</TITLE>
+<SCRIPT language="Javascript">
+function testGenapGanjil () {
+    var val1 = document.kirim.T1.value
+    if (val1 % 2 == 0)
+        document.kirim.T2.value = "bilangan genap"
+    else
+        document.kirim.T2.value = "bilangan ganjil"
+}
+
+function ubahWarnaLB(warna) {
+    document.bgColor = warna;
+}
+function ubahWarnaLD(warna) {
+    document.fgColor = warna;
+}
+</SCRIPT>
+</HEAD>
+<BODY>
+<!-- Bagian Form Ganjil/Genap -->
+<form method="POST" name="kirim">
+<p>BIL <input type="text" name="T1" size="20">
+MERUPAKAN BIL <input type="text" name="T2" size="20">
+</p>
+<p><input type="button" value="TEBAK" name="B1" onclick="testGenapGanjil()">
+</p>
+</form>
+
+<hr>
+
+<!-- Bagian Objek Document (Ubah Warna) -->
+<H1>TES</H1>
+<FORM>
+<INPUT TYPE = "BUTTON" VALUE = "Latar Belakang Hijau" onClick = "ubahWarnaLB('GREEN')">
+<INPUT TYPE = "BUTTON" VALUE = "Latar Belakang Putih" onClick = "ubahWarnaLB('WHITE')">
+<INPUT TYPE = "BUTTON" VALUE = "Teks Kuning" onClick = "ubahWarnaLD('YELLOW')">
+<INPUT TYPE = "BUTTON" VALUE = "Teks Biru" onClick = "ubahWarnaLD('BLUE')">
+</FORM>
+</BODY>
+</HTML> TIF FT UNIPMA

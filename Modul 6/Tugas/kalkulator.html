@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <TITLE>Kalkulator Sederhana</TITLE>
+    <SCRIPT language="Javascript">
+    function hitung(operator) {
+        var bil1 = parseFloat(document.calcForm.bil1.value);
+        var bil2 = parseFloat(document.calcForm.bil2.value);
+        var hasil = 0;
+
+        if (isNaN(bil1) || isNaN(bil2)) {
+            alert("Mohon masukkan angka pada Bil 1 dan Bil 2!");
+            return;
+        }
+
+        switch (operator) {
+            case '+':
+                hasil = bil1 + bil2;
+                break;
+            case '-':
+                hasil = bil1 - bil2;
+                break;
+            case 'x':
+                hasil = bil1 * bil2;
+                break;
+            case '/':
+                if (bil2 === 0) {
+                    alert("Tidak dapat melakukan pembagian dengan nol!");
+                    return;
+                }
+                hasil = bil1 / bil2;
+                break;
+        }
+
+        document.calcForm.hasil.value = hasil;
+    }
+    </SCRIPT>
+</head>
+<body>
+    <h2>Kalkulator Sederhana</h2>
+    <form name="calcForm">
+        <p>Bilangan 1: <input type="text" name="bil1" size="15"></p>
+        <p>Bilangan 2: <input type="text" name="bil2" size="15"></p>
+        <p>
+            <input type="button" value=" + " onclick="hitung('+')">
+            <input type="button" value=" - " onclick="hitung('-')">
+            <input type="button" value=" x " onclick="hitung('x')">
+            <input type="button" value=" / " onclick="hitung('/')">
+        </p>
+        <p>Hasil: <input type="text" name="hasil" size="20" readonly></p>
+    </form>
+
+    <!-- Tambahan baris kode referensi terakhir dimodifikasi dari soal bagian bawah -->
+    <br><hr>
+    <SCRIPT LANGUAGE = "JavaScript">
+   
+    document.write("Dimodifikasi terakhir pada " + document.lastModified);
+    //-->
+    </SCRIPT>
+</body>
+</html>
