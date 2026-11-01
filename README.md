@@ -20,6 +20,9 @@ Repository ini berisi source code, dokumentasi, dan screenshot hasil praktikum s
 | Modul 1 | Dasar-dasar Pemrograman & HTML | [Folder](./Modul%201/) |
 | Modul 2 | Semantic HTML | [Folder](./Modul%202/) |
 | Modul 3 | Form HTML | [Folder](./Modul%203/) |
+| Modul 4 | CSS | [Folder](./Modul%203/) |
+| Modul 5 | CSS layouting | [Folder](./Modul%203/) |
+| Modul 6 | Java Script | [Folder](./Modul%203/) |
 
 ## Cara Menjalankan Aplikasi
 
